@@ -379,7 +379,7 @@ footer p:nth-child(2) {
 
 /* Hamburger Menu Animation */
 
-.menu-toggle span:nth-child(2) {
+/* .menu-toggle span:nth-child(2) {
     transform-origin: 0 0;
 }
 
@@ -399,7 +399,7 @@ footer p:nth-child(2) {
 
 .menu-toggle input:checked~span:nth-child(3) {
     transform: scale(0);
-}
+} */
 
 @media (max-width:1024px) {
     nav ul {
@@ -437,7 +437,7 @@ footer p:nth-child(2) {
 
     .service .box {
         /* height: 100vh; */
-        width: 800px;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
@@ -556,7 +556,7 @@ footer p:nth-child(2) {
     }
 
     .service {
-        width: 360px;
+        width: 100%;
     }
 
     .service .box {

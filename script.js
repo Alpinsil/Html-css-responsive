@@ -6,9 +6,9 @@ menuToggle.addEventListener("click", function () {
     nav.classList.toggle("slide");
 });
 
-// const navLi = document.querySelectorAll("nav ul li");
-// navLi.forEach((n) => {
-//     n.addEventListener("click", () => {
-//         nav.classList.toggle("slide");
-//     });
-// });
+const navLi = document.querySelectorAll("nav ul li");
+navLi.forEach((n) => {
+    n.addEventListener("click", () => {
+        nav.classList.toggle("slide");
+    });
+});
